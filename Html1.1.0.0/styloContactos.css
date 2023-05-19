@@ -1,0 +1,31 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images8.alphacoders.com/107/1074846.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+body li{
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.contenedor{
+
+    width: 30%;
+    padding: 30px 10px;
+    display: center;
+    justify-content: center;
+    background-color: rgba(47, 56, 65, 0.5);
+    border-radius: 20px; /*Bordes circulares */
+
+}
+

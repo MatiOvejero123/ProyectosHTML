@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Formulario de registro : </h1>
+    <hr>
+    <!--Nombre-->
+    <form action="campoObligatorio">
+        
+        <p>Nombre:</p><input type="text" name="Nombre" placeholder="ingresar el nombre:" required>
+        <br>
+        <button type="sublime">Mandar</button>
+
+    </form>
+    <!--Apellido-->
+    <form action="campoObligatorio">
+
+        <br>
+        <p>Apellido: </p><input type="text" name="Apellido" placeholder="ingresar el Apellido: " required>
+        <br>
+        <button type="sublime">Mandar</button>
+
+    </form>
+    <!--Seleccion de sexo-->
+    <br>
+    <label id="sex">
+    <p>Seleccionar el sexo : </p>
+    <input type="radio" name="sexo" value="h" >Hombre.
+    <input  type="radio" name="sexo" value="h" >Mujer.
+    </label>
+    <!--Correo-->
+    <form action="campoObligatorio">
+        
+        <p>Ingresar el correo electronico:</p><input type="text" name="Correo" placeholder="ingresar el correo:" required>
+        <br>
+        <button type="sublime">Mandar</button>
+
+    </form>
+    <br>
+
+    <!--Poblacion y descripcion de la misma -->
+
+    <p>Seleccionar la poblacion : </p>
+    <select>
+		<option value="arg">Argentina</option>
+		<option value="bra">Brasil</option>
+		<option value="colom">Colombia</option>
+		<option value="chile">Chile</option>
+	</select>
+
+    <p>Ingresar una breve descripcion : </p>
+
+    <textarea rows="4" cols="50"></textarea>
+    <br>
+    <button type="sublime">Mandar</button>
+    
+    <br>
+    <br>
+    <hr>
+    <!--informacion y terminos y condiciones-->
+    <label for = "RecibirInformacion"><input id = "RecibirInformacion" type="checkbox" name="informacion" value="RecibirInformacion" >Deseo recibir informacion.<br></label>
+    <label for = "TerminosyCondiciones"><input id = "TerminosyCondiciones" type="checkbox" name="terminos" value="TerminosyCondiciones" >Declaro haber leido los terminos y condiciones.<br></label>
+    <br>
+    <button type="sublime">Enviar formulario completo</button>
+
+
+</body>
+</html>

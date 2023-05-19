@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIAR SESION || CleverlyDumb</title>
+    <link rel="stylesheet" href="styloCSSindex3.css">
+
+</head>
+<body>
+    
+    <main>
+
+        <!--Creo un contenedor : recuadros o espacios rectangulares que pueden colocarse en cualquier parte de la página.-->
+        <div class="contenedorDeTodo">
+            <div class="CajaTrasera">
+            <!--Crear la caja de atras (login)-->
+            <div class="cajaTraseraParaLogin">
+
+                <h3>¿Tienes una cuenta?</h3>
+                <p>Iniciar sesion para entrar a la pagina </p>
+                <button id="BotonInicioSesion">Iniciar sesion</button>
+            </div>
+
+            <!--Crear la caja de atras (no tengo una cuenta)-->
+                <div class="cajaTraseraRegister">
+
+                    <h3>¿Todavia no tienes una cuenta?</h3>
+                    <p>Registrarse para poder iniciar sesion</p> </p>
+                    <button id="BotonRegistrarse">Registrarse</button>
+            
+                </div>
+            </div>
+
+            <div class="contenedorLoginRegister">
+                
+                <!-- Formulario para LOGIN -->
+                <form action="" class="formularioLogin">
+                    <!--placeholder : fragmentos de código que se pueden utilizar en cualquier layout y aceptan condiciones de visualización-->
+                    <h2>Iniciar sesion</h2>
+                    <input type="text" placeholder="Correo Electronico : ">
+                    <input type="password" placeholder="Contraseña : ">
+                    <button>Ingresar</button>
+                    
+
+                </form>
+
+                <!-- Formulario para REGISTRARSE -->
+                <form action="../Html1.0.3/PHP/RegistroDeUsuarioBd.php" method="post" class="formularioRegistrarse">
+
+                    <h2>Registrarses</h2>
+                    <input type="text" placeholder="Nombre completo" name="NombreCompleto">
+                    <input type="text" placeholder="Correo Electronico" name="Correo">
+                    <input type="text" placeholder="Nombre de usuario" name="Usuario">
+                    <input type="password" placeholder="Contraseña" name="Contrasena">
+                    <button>Registrarse</button>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+    
+    <script src="JSindex3CleverlyDumb.js">
+
+    </script>
+</body>
+</html>
+
+<!--https://www.youtube.com/watch?v=c3GoigQ5vRE&t=2047s  HTML-JS-CSS -->
+<!--https://www.youtube.com/watch?v=veoZts7H-ZI&t=331s   Base de datos -->

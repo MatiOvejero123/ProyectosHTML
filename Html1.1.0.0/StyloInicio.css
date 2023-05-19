@@ -1,0 +1,43 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images5.alphacoders.com/108/1081832.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.menuOpciones{
+
+    list-style: none;
+    padding: 0;
+    background-color: rgba(47, 56, 65, 0.5);
+    border-radius: 20px; /*Bordes circulares */
+    width: 90%;
+    max-width: 1000px;
+    margin : auto;
+
+}
+
+.menuOpciones li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.menuOpciones li{
+
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menuOpciones li a:hover{
+    background: #6d0a0a;
+    border-radius: 20px; /*Bordes circulares */
+}

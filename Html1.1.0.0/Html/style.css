@@ -1,0 +1,74 @@
+h3 {
+
+    color: aqua;
+    font-size: 15px;
+}
+
+h4 {
+
+    color: brown;
+    font-size: 15px;
+}
+
+.Nombre-De-Clase{
+
+    color: chocolate;
+    font-size: 15px;
+}
+
+h5{
+    font-size: 25px;
+}
+
+h6{
+    /* Google */
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+}
+
+.ImgParaBordes { 
+
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.ImgParaBordesRedondeado {
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.Imgredonda{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+}
+
+div {
+
+    background-color: aqua;
+
+}
+
+section{
+
+    background-color: antiquewhite;
+
+}
+/* 
+
+para todas las imagenes
+
+img{
+    /*ancho
+    width: 500px;
+
+}
+*/
